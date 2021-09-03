@@ -1,0 +1,8 @@
+running as a batch file:
+
+
+set projectLocation=C:\Users\binds\eclipse-workspace\SrinivasmavenProject
+cd %projectLocation%
+set classpath=%projectLocation%\lib\*;%projectLocation%\bin;
+java org.testng.TestNG %projectLocation%\testng.xml
+pause
